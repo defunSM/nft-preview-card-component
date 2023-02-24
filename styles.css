@@ -19,30 +19,31 @@ body {
 .layer-1 {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: var(--card-bg);
   border-radius: 0.5rem;
   margin: 10rem 30rem;
+  max-width: 400px;
+
 }
 
 .layer-2 {
-  background-color: var(--white);
-  margin: 1rem 2rem;
-}
-
-.layer-3 {
+  background-color: var(--card-bg);
   display: flex;
   justify-content: center;
-  place-items: center;
-  flex-direction: column;
-  background-color: var(--card-bg);
-  border-radius: 3rem;
-  padding: 1rem;
-  text-align: left;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  max-width: 400px;
+  box-shadow: -2px 20px 100px 4px rgba(0,0,0,0.33), -4px 19px 97px 11px rgba(0,0,0,0.3);
+
 }
+
+
 
 h1 {
   color: var(--white);
+  width: 100%;
+  font-size: 1.5rem;
 }
 
 .equilibrium-img {
@@ -54,6 +55,9 @@ h1 {
 
 hr {
   background-color: white;
+  width: 100%;
+  color: var(--line-color);
+  margin-top: 2rem;
 }
 
 .description {
@@ -65,9 +69,10 @@ hr {
 .eth-amount {
   margin-top: 2rem;
   display: flex;
-  gap: 5rem;
+  gap: 8rem;
   min-width: 20rem;
   justify-content: center;
+  color: var(--primary-soft-blue)
 }
 
 .avatar-img {
@@ -77,13 +82,19 @@ hr {
   border-color: var(--white);
   border-width: 0.1rem;
   border-style: solid;
+  margin-right: 1rem;
+  margin-top: -0.3rem;
 }
 
 .creator {
-  margin-top: 2rem;
+  color: var(--primary-soft-blue);
+  margin-top: 1rem;
   display: flex;
-  place-content: left;
-  text-align: left;
+  justify-content: left;
+}
+
+#eth-price {
+  color: var(--primary-cyan) !important;
 }
 
 #bold {
