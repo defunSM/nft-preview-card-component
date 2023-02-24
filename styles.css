@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --primary-soft-blue: hsl(215, 51%, 70%);
+  --primary-cyan: hsl(178, 100%, 50%);
+
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line-color: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: 'Outfit', sans-serif;
+}
+
+.layer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  margin: 10rem 30rem;
+}
+
+.layer-2 {
+  background-color: var(--white);
+  margin: 1rem 2rem;
+}
+
+.layer-3 {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+  background-color: var(--card-bg);
+  border-radius: 3rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+h1 {
+  color: var(--white);
+}
+
+.equilibrium-img {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  border-radius: 1rem;
+}
+
+hr {
+  background-color: white;
+}
+
+.description {
+  color: var(--primary-soft-blue);
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.eth-amount {
+  margin-top: 2rem;
+  display: flex;
+  gap: 5rem;
+  min-width: 20rem;
+  justify-content: center;
+}
+
+.avatar-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  border-color: var(--white);
+  border-width: 0.1rem;
+  border-style: solid;
+}
+
+.creator {
+  margin-top: 2rem;
+  display: flex;
+  place-content: left;
+  text-align: left;
+}
+
+#bold {
+  color: var(--white);
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
